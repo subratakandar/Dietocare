@@ -1,0 +1,399 @@
+.header-top-text {
+  border-left: 2px solid #edbd00;
+  padding-left: 8px;
+}
+.banner {
+  padding: 189px 0px;
+  background-image: url("../assets/index-image/banner-img.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+  min-height: 100vh;
+  position: relative;
+  /* width: 100vw; */
+}
+.index-banner-contain{
+margin:100px 0px;
+
+
+}
+.index-banner-contain > h1 {
+  max-width: 592px;
+  padding:20px 0px;
+}
+.index-banner-contain> p.common-para {
+  color: white;
+  max-width: 473px;
+  line-height: 24px;
+  padding-bottom:20px;
+}
+.index-banner-btn,
+.index-banner-btn > a {
+  display: flex;
+  align-items: center;
+}
+.index-banner-btn {
+  gap:10px;
+}
+.index-banner-btn > a {
+  gap: 0px;
+  color: white;
+}
+.index-banner-btn > .common-btn {
+  color: #171615;
+}
+/* =================our program============== */
+.index-card {
+  padding: 80px 0px;
+}
+.index-card h2 {
+  text-align: center;
+}
+
+.index-card > .container > p.common-para {
+  max-width: 748px;
+  text-align: center;
+  margin: auto;
+  padding: 20px 0px;
+}
+.card-sec > a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #c1963c;
+}
+.card-sec:hover {
+  box-shadow: 2px 2px 2px 2px rgb(226, 219, 219);
+  border-radius: 20px;
+}
+.card-sec > div > img {
+  object-fit: contain;
+  width: 100%;
+  /* max-width: 360px; */
+}
+.card-sec > p {
+  max-width: 333px;
+  margin: 10px 0px;
+}
+.card-sec > div {
+  margin-bottom: 20px;
+}
+.index-card > .container > .row {
+  padding-bottom: 0px;
+}
+.card-sec {
+  display: flex;
+  flex-direction: column;
+  padding:20px;
+  /* max-width: 360px; */
+  margin: 10px;
+  
+}
+.index-card > .container > .row {
+  justify-content: space-between;
+}
+/* ===============about us section====== */
+.about {
+  background-image: url("../assets/index-image/about-us-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  object-fit: contain;
+}
+.about > .container > .row {
+  padding: 70px 0px 100px;
+}
+.about-sec-img > img {
+  width: 100%;
+  /* max-width: 560px; */
+  object-fit: contain;
+}
+.about-text > p {
+  max-width: 519px;
+  padding: 35px 0px;
+  line-height: 24px;
+}
+.about-text {
+  padding-top: 48px;
+}
+/* =================why choose us---------- */
+.why-us {
+  padding: 90px 0px;
+}
+.why-us > .container > h2 {
+  text-align: center;
+}
+.why-us > .container {
+  max-width: 1320px;
+  margin: 0px auto;
+}
+.why-us > .container > .row {
+  padding-top: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.why-us > .container > .row > .col-6 {
+  width: 16.66%;
+}
+.col-6 > div > p {
+  max-width: 188px;
+  margin: 0px auto;
+  text-align: center;
+}
+.col-6 > div > img {
+  width: 100%;
+  object-fit: contain;
+  max-width: 191px;
+}
+/* ===created section=== */
+.created {
+  background-image: url("..//assets/index-image/created-bg.svg");
+  padding: 85px 0px 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 30px 0px;
+}
+.created-header > div > h2,
+.created-bottom > p {
+  color: white;
+}
+.arrow {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+.created-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow > div > .fa-solid {
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid rgb(244, 237, 237);
+  color: white;
+}
+.arrow > div > .fa-solid:hover {
+  outline: 2px solid red;
+}
+.created-card > div > img {
+  width: 100%;
+  /* max-width: 263px; */
+  object-fit: contain;
+  border-radius: 20px;
+}
+.created-bottom > p {
+  max-width: 230px;
+}
+
+.created-card {
+  padding: 20px 0px;
+}
+.created-top {
+  margin-top: 45px;
+}
+.created-bottom {
+  margin-top: 20px;
+}
+.swiper-slide{
+  padding: 0px 20px;
+}
+
+/* ===============stories====== */
+.story > .container > h2 {
+  text-align: center;
+}
+.story > .container > p {
+  max-width: 748px;
+  text-align: center;
+  margin: 0px auto;
+  padding: 31px;
+}
+/* stories slider=== */
+.swiper-wrapper-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mySwiper {
+  width: 100%;
+}
+.arrow{
+  position: relative;
+}
+.custom-arrow{
+  position: absolute;
+  left: 200px;
+  top:70px;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid black;
+} 
+.swiper-slide > a > img {
+  width: 100%;
+  object-fit: contain;
+  /* max-width: 360px; */
+}
+
+
+/* ============Let's Face It===== */
+.face-it-img > img {
+  width: 100%;
+  object-fit: contain;
+  max-width: 413px;
+  height: 635px;
+}
+.face-it-right > p {
+  max-width: 519px;
+  margin: 35px 0px 40px;
+}
+.face-it-sec {
+  display: flex;
+  gap: 20px;
+}
+.face-it-sec > p {
+  max-width: 395px;
+  margin-top: 21px;
+}
+.face-it-right {
+  padding-top: 103px;
+  padding-bottom: 50px;
+}
+
+/* =====responsive web pages================== */
+/* =====responsive web pages================== */
+
+/* ========index section==== */
+@media screen and (max-width:1200px){
+  .index-card {
+  padding: 40px 0px;
+}
+  
+}
+@media screen and (max-width: 1024px) {
+  .banner-header {
+    font-size: 50px;
+  }
+  /* =========index card==== */
+  .index-card {
+    padding: 40px 0px;
+  }
+  .index-card > .container > p.common-para {
+    padding: 40px 0px 20px;
+  }
+  .card-sec > .common-sub-header {
+    font-size: 15px;
+  }
+  /* =======about us===== */
+
+  .about > .container > .row {
+    padding: 30px 0px;
+  }
+  .about-text > p {
+    max-width: 519px;
+    padding: 15px 0px;
+    font-size: 12px;
+  }
+  .about-text {
+    padding-top: 0px;
+  }
+
+  /* ===========why choose us==== */
+
+  .col-6 > div > p {
+    font-size: 13px;
+  }
+  /* ============FACE IT-==== */
+  .face-it-right {
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+}
+/* =====================992px=========== */
+/* =========why choose us==== */
+@media screen and (max-width:992px){
+  .why-us {
+  padding: 40px 0px;
+}
+.face-it{
+  padding: 0px;
+}
+/* ====================footer==== */
+
+  
+}
+/* =========768px================ */
+
+@media screen and (max-width: 768px) {
+  /* =====banner section=== */
+  .banner {
+    padding: 100px 0px;
+    }
+    .banner>.container>h1{
+      font-size: 50px;
+  }
+  /* =======our program=== */
+  .index-card > .container > .row > .col-33 {
+    width: 100%;
+  }
+  .card-sec>p{
+    max-width: 100%;
+  }
+  .index-card>.container>h2{
+    font-size: 30px !important;
+  }
+  .index-card>.container>h2>span{
+    font-size: 30px !important;
+  }
+  /* ========about sec==== */
+  .about > .container > .row > .col-50 {
+    width: 100%;
+  }
+  .about-text > p {
+    max-width: 100%;
+  }
+  /* ==========why choos es=== */
+  .col-6 > div > p {
+    font-size: 10px;
+  }
+  /* =======lets face it==== */
+  .face-it > .container > .row > .col-50 {
+    width: 100%;
+  }
+  .face-it-img > img {
+    height: 435px;
+  }
+  .face-it-sec > p {
+    margin-top: 10px;
+  }
+  /* ========created==== */
+  .created-header>div>.h2{
+    font-size: 30px !important;
+  }
+
+}
+/* ======================576px-========== */
+@media screen and (max-width: 576px) {
+  .index-banner-contain > h1 {
+    font-size: 50px;
+}
+/* ========created==== */
+.created-header>div>h2{
+  font-size: 40px;
+}
+.created-header>div>h2>span{
+  font-size: 40px;
+}
+}

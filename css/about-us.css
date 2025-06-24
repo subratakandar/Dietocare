@@ -1,0 +1,123 @@
+.about-us {
+  background-image: url("../assets/about-us/banner.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.about-banner > h1 {
+  padding:165px 0px;
+  text-transform: uppercase;
+}
+/* ============about dietocare============== */
+.dietocare {
+  padding: 100px 0px;
+}
+.dietocare-left > div {
+  position: relative;
+}
+.dietocare-left > div > img {
+  width: 100%;
+  object-fit: contain;
+  /* max-width: 488px; */
+  max-width: 33.89vw;
+}
+.psudo {
+  position: absolute;
+  /* top: 340px;
+  left: 350px; */
+  left: 23.61vw;
+  top: 24.31vw;
+
+  object-fit: contain;
+}
+.psudo > img {
+  object-fit: contain;
+  border: 11px solid white;
+  border-radius: 30px;
+  /* max-width: 220px; */
+  max-width: 15.28vw;
+}
+.dietocare-right > p {
+  margin: 35px 0px;
+  max-width: 487px;
+  line-height: 24px;
+}
+
+/* ========We Have Been There===== */
+.about-sec {
+  padding: 80px 0px 110px;
+  background: linear-gradient(to bottom, #fff7f3, #fff7f3);
+}
+.about-info{
+  padding-bottom: 20px;
+}
+.about-info > h2 {
+  text-align: center;
+}
+.about-card > div {
+  padding: 26px 0px 20px;
+  margin: 0px auto;
+}
+.about-card > p {
+  max-width: 333px;
+  text-align: center;
+}
+.about-card > img {
+  width: 100%;
+  object-fit: contain;
+  max-width: 360px;
+}
+.about-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===========responsive ========== */
+/* ===========992px===== */
+@media screen and (max-width:992px){
+
+  .about-sec{
+    padding: 50px 0px;
+  }
+}
+
+/* ============768px============ */
+@media screen and (max-width: 768px) {
+  .about-banner > h1 {
+    font-size: 40px;
+  }
+  .col-33 {
+    width: 50%;
+  }
+  .col-50 {
+    width: 100% !important;
+  }
+  .dietocare .row {
+    row-gap: 30px;
+  }
+  .dietocare-left > div > img {
+    max-width: 100vh;
+  }
+  .psudo img {
+    right: 10vh;
+    bottom: 5vh;
+  }
+  .dietocare {
+  padding: 30px 0px;
+}
+.dietocare-right>p{
+  max-width: 100%;
+  margin:10px 0px;
+}
+}
+/* =============576px====== */
+@media screen and (max-width:576px){
+.about-sec>.container>.row>.col-33{
+width: 100%;
+margin: 10px;
+}
+
+}

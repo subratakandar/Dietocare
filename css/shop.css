@@ -1,0 +1,91 @@
+.product {
+  padding: 100px 0px;
+  background-color: rgb(239, 232, 232);
+}
+
+.banner {
+  background-image: url("..//assets/shop/banner.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner > div > h1 {
+  padding: 175px 0px;
+}
+/* ==============card section==== */
+.product>.container>.text{
+  margin-bottom: 20px;
+}
+.card-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-body>div > a>img {
+  width: 100%;
+  object-fit: contain;
+  max-width: 334px;
+}
+.card-body{
+    padding: 13px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 360px;
+}
+
+.card-info>img
+{
+    padding: 12px 0px;
+    max-width: 72px;
+    object-fit: contain;
+    width: 100%;
+}
+.card-info>p{
+    padding: 22px 0px 29px;
+}
+.product>.container>.row
+{
+    row-gap: 20px;
+    justify-content: center;
+}
+/* =============pagination menu==== */
+.pagination {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+}
+
+.pagination a {
+  color:#9F9F9F;
+  padding: 8px 13px;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #F4F6F9;
+  margin: 0px 5px;
+}
+.pagination>a:hover{
+    background-color: #D09172;
+    color: white;
+}
+
+/* ===================responsive================= */
+/* ===================responsive================= */
+@media screen and (max-width:1200px){
+  .product{
+    padding: 50px 0px 0px;
+  }
+  
+}
+@media screen and (max-width:768px){
+  .product>.container>.row>.col-33{
+    width: 66.66%;
+    margin: 0px auto;
+  }
+  .product>.container>.row{
+
+    justify-content: center;
+    align-items: center;
+  }
+
+}

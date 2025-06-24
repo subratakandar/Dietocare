@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dietocare/shop/cart</title>
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/shop-cart.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- ========including header==== -->
+    <section id="header" data-aos="fade-in" data-aos-duration="2000"></section>
+    <!-- ==================================================== -->
+    <main>
+      <!-- ============shop-cart-banner========== -->
+      <section class="cart-banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-50" data-aos="flip-right" data-aos-duration="2000">
+              <!-- ============slider============ -->
+
+              <div
+                style="
+                  --swiper-navigation-color: #fff;
+                  --swiper-pagination-color: #fff;
+                "
+                class="swiper mySwiper2"
+              >
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="assets/shop/shop-1.svg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/shop/shop-2.svg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/shop/shop-3.svg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/shop/shop-4.svg" />
+                  </div>
+                </div>
+              </div>
+              <div thumbsSlider="" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="assets/shop/shop-1.svg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/shop/shop-1.svg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/shop/shop-1.svg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="assets/shop/shop-1.svg" />
+                  </div>
+                </div>
+              </div>
+              <!-- =============slider=========== -->
+            </div>
+            <div class="col-50" data-aos="flip-left" data-aos-duration="2000">
+              <div class="col-right-text">
+                <h2 class="common-sub-header">
+                  Natural Chia Seeds 500g - Seeds for Eating | Seeds for Weight
+                  Management | Rich in Calcium, Protein & Fibre
+                </h2>
+                <p class="common-para">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                </p>
+                <div>
+                  <img src="assets/shop/rating.svg" alt="" /><span
+                    style="color: #d09172"
+                    >10 Review</span
+                  >
+                </div>
+
+                <p class="common-para">
+                  Sold by
+                  <span style="font-size: 18px; color: black">Dietocare </span>
+                </p>
+
+                <div class="card-1">
+                  <span class="price">₹ 359</span>
+                  <span class="drop-price"><del>₹ 399</del></span>
+                </div>
+                <div>
+                  <span class="common-para">quantity</span>
+                  <div class="counter">
+                    <button onclick="decrease()">-</button>
+                    <span id="count">0</span>
+                    <button onclick="increase()">+</button>
+                  </div>
+                </div>
+                <button class="add-to-cart">add to cart</button>
+                <div>
+                  <span>Share</span>
+                  <div>
+                    <a href=""><img src="assets/shop/twitter.svg" alt="" /></a>
+                    <a href=""><img src="assets/shop/facebook.svg" alt="" /></a>
+                    <a href=""
+                      ><img src="assets/shop/pinterest.svg" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==product information==== -->
+      <section class="cart" data-aos="zoom-in" data-aos-duration="2000">
+        <div class="container">
+          <div class="anchor">
+            <a href="" class="common-sub-header">Product Description</a>
+            <a href="" class="common-sub-header">Reviews</a>
+            <a href="" class="common-sub-header">Submit A Review</a>
+          </div>
+          <hr />
+          <br />
+          <p class="common-para">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. 
+          </p>
+          <br />
+          <p class="common-para">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. Lorem Ipsum is simply
+            dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy
+          </p>
+          <br />
+          <p class="common-para">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. 
+          </p>
+          <br />
+
+          <div class="list-info">
+            <ul class="common-para">
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Nunc aliquet diam non imperdiet dapibus.</li>
+              <li>
+                Morbi bibendum tellus ac velit suscipit, sed accumsan felis
+                blandit.
+              </li>
+              <li>Duis et mauris eget nisi egestas porta sit amet in sem.</li>
+              <li>
+                Integer interdum dui dapibus nisi maximus, vitae molestie felis
+                lacinia
+              </li>
+              <li>
+                Suspendisse aliquam ex a felis pulvinar, vel tempor dolor
+                bibendum
+              </li>
+              <li>Praesent porttitor tellus vel felis rutrum blandit.</li>
+              <li>Donec vestibulum diam ut mi faucibus pe</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- ============== -->
+      <!-- =================card section============= -->
+      <section class="product">
+        <div class="container">
+          <div class="text">
+            <h2 class="common-header">
+              Related <span class="span">Products</span>
+            </h2>
+            <div class="underline"></div>
+          </div>
+          <br />
+          <!-- ====card==== -->
+          <div class="row">
+            <!-- ====card-1====== -->
+            <div class="col-33">
+              <div class="card-body">
+                  <div data-aos="flip-left" data-aos-duration="3000">
+                    <a href="shop-cart.html"
+                      ><img src="assets/shop/shop-1.svg" alt=""
+                    /></a>
+                  </div>
+                  <div class="card-info">
+                    <img src="assets/testimonial/star.svg" alt="" />
+                    <h3 class="common-sub-header">Natural Chia Seeds 500g </h3>
+                    <p class="common-para">
+                      Nutrient-Dense Superfood: Packed with Omega-3 fatty acids,
+                      fibre
+                    </p>
+                    <div class="card-sec">
+                      <div class="card-1">
+                        <span class="price">₹ 359</span>
+                        <span class="drop-price"><del>₹ 399</del></span>
+                      </div>
+                      <div class="card-2">
+                        <a href="" class="common-btn">add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- =====card-2==== -->
+            <div class="col-33">
+              <div class="card">
+                <div class="card-body">
+                  <div class="card-img">
+                    <a href="shop-cart.html"
+                      ><img src="assets/shop/shop-2.svg" alt=""
+                    /></a>
+                  </div>
+                  <div class="card-info">
+                    <img src="assets/testimonial/star.svg" alt="" />
+                    <h3 class="common-sub-header">Natural Chia Seeds 500g </h3>
+                    <p class="common-para">
+                      Nutrient-Dense Superfood: Packed with Omega-3 fatty acids,
+                      fibre
+                    </p>
+                    <div class="card-sec">
+                      <div class="card-1">
+                        <span class="price">₹ 359</span>
+                        <span class="drop-price"><del>₹ 399</del></span>
+                      </div>
+                      <div class="card-2">
+                        <a href="" class="common-btn">add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- =====card-3==== -->
+            <div class="col-33">
+              <div class="card">
+                <div class="card-body">
+                  <div class="card-img">
+                    <a href="shop-cart.html"
+                      ><img src="assets/shop/shop-3.svg" alt=""
+                    /></a>
+                  </div>
+                  <div class="card-info">
+                    <img src="assets/testimonial/star.svg" alt="" />
+                    <h3 class="common-sub-header">Natural Chia Seeds 500g </h3>
+                    <p class="common-para">
+                      Nutrient-Dense Superfood: Packed with Omega-3 fatty acids,
+                      fibre
+                    </p>
+                    <div class="card-sec">
+                      <div class="card-1">
+                        <span class="price">₹ 359</span>
+                        <span class="drop-price"><del>₹ 399</del></span>
+                      </div>
+                      <div class="card-2">
+                        <a href="" class="common-btn">add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ========= -->
+          </div>
+        </div>
+        <!--container-->
+      </section>
+    </main>
+    <!-- ==================================================== -->
+    <div id="footer" data-aos="fade-in" data-aos-duration="2000"></div>
+    <!-- =========================== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="js/script.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+        loop: true,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+      });
+    </script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

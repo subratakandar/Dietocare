@@ -1,0 +1,158 @@
+
+.contact
+{
+    background-image: url('../assets/contact-us/banner.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+
+}
+.contact-banner>h1
+{
+padding: 10rem 0rem;
+}
+.contact-card>img
+{
+    border: 1px solid #D09172;
+    padding: 10px;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 70px
+}
+.contact-card>.common-sub-header
+{
+    padding: 15px 0px;
+}
+.contact-card>.common-para
+{
+    max-width: 280px;
+    color: #52504E;
+    padding-top: 10px;
+}
+/* =================contact card========= */
+.contact-by
+{
+    padding: 100px 0px;
+    background-color: #FFF7F3;
+}
+.contact-card
+{
+    padding: 28px;
+    border-radius: 17px;
+    max-width: 350px;
+    height: 244px;
+    background-color: white;
+    width: 100%;
+
+}
+.contact-card:hover
+{
+    outline: 1px solid rgb(224, 201, 201);
+    box-shadow: 2px 2px 2px 2px rgb(221, 212, 212);
+}
+.contact-by>.container>.row
+{
+    justify-content: space-between;
+}
+/* ==================get in touch==== */
+.get-touch
+{
+    background-color:white;
+}
+.get-touch>.container>.row
+{
+    padding: 100px 0px;
+}
+.get-touch>.container>.row>.col-50>div>img{
+    width: 100%;
+    object-fit: contain;
+    max-width: 554px;
+}
+.right-child
+{
+    padding: 59px 30px 29px;
+    background-color:#FFF7F3;
+    max-width: 554px;
+    border-radius: 20px;
+    max-height: 648px;
+}
+input
+{
+    width: 100%;
+    outline: none;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    border: none;
+    
+}
+.submit
+{
+    background-color: #D09172;
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+.massage
+{
+height: 120px;
+}
+input::placeholder
+{
+    padding: 24px;
+}
+form
+{
+    margin-top: 43px;
+}
+/* ======================responsive page============= */
+/* ================1024px=========== */
+@media screen and (max-width:1024px){
+    .get-touch>.container>.row
+{
+    padding: 50px 0px;
+}
+input
+{
+    padding:15px 0px;
+    margin: 10px 0px;
+    
+}
+.massage
+{
+height: 60px;
+}
+
+form
+{
+    margin-top:30px;
+}
+    
+}
+/* ========================responsive(768px)================ */
+@media screen and (max-width:768px){
+    .contact-by>.container>.row>.col-33
+    {
+        width:100%;
+    }
+    .contact-by>.container>.row
+    {
+        gap: 20px;
+        justify-content: center;
+    }
+    .get-touch>.container>.row>.col-50
+    {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .contact-banner>h1
+    {
+        font-size: 70px;
+    }
+    .get-touch>.container>.row{
+        align-items: center;
+        justify-content: center;
+    }
+}

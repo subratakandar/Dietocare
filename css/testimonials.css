@@ -1,0 +1,123 @@
+.col-33>div{
+    width: 100%;
+}
+
+
+
+.feedback
+{
+    padding: 100px 0px;
+}
+
+.banner
+{
+    background-image: url('..//assets/testimonial/banner.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner>div>h1{
+    padding: 10.93rem 0px;
+}
+.video>.col-33>div>a>img{
+    width: 100%;
+    object-fit: contain;
+    /* max-width: 360px; */
+}
+.text
+{
+    text-align: center;
+}
+.text>.common-para{
+    max-width: 640px;
+    margin: 0px auto;
+}
+.row
+{
+    row-gap: 30px;
+}
+.card-info
+{
+    max-width: 300px;
+    text-align: center;
+    gap: 10px;
+}
+.card-info>p
+{
+margin: 10px 0px;
+}
+.card-body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+}
+.link{
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.client
+{
+    background-color: #FFF7F3;
+    padding: 100px 0px;
+}
+.card-img>img
+{
+    width: 100%;
+    object-fit: contain;
+    max-width: 335px;
+}
+.card
+{
+    max-width: 360px;
+}
+.row>.col-33>div>img
+{
+    width: 100%;
+    object-fit: contain;
+}
+.video-slider{
+    display: none;
+}
+  .client-slider{
+        display: none;
+    }
+    .swiper-wrapper,.swiper-slide{
+        width: 100%;
+    }
+    .swiper-slide>div{
+        width: 100%;
+    }
+
+/* =============================Responsive====== */
+@media screen and (max-width:768px){
+    .client>.container>.row{
+        display: none;
+    }
+    .client>.container>.link{
+        display: none;
+    }
+    .client-slider{
+        display: block;
+    }
+    .feedback>.container>.row{
+        display: none;
+    }
+    .video-slider{
+        display: block;
+    }
+    .feedback>.container>.link{
+        display: none;
+    }
+    .feedback{
+        padding: 20px 0px;
+    }
+    .testimonial>.banner>.container>h1{
+        font-size: 50px;
+    }
+}

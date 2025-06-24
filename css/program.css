@@ -1,0 +1,136 @@
+
+.program
+{
+    background-image: url('../assets/program/banner.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.program>.container>h1
+{
+    padding: 175px 0px;
+}
+.program-context>h2
+{
+text-align: center;
+}
+.program-card
+{
+    padding: 100px 0px;
+}
+/* =========program card section== */
+.card-sec
+{
+  display: flex;
+  justify-content: space-between;
+  padding-top:187px;
+  align-items: center;
+
+}
+.card{
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  padding: 30px;
+  border-radius: 20px;
+}
+.bg-img-1
+{
+  background-image: url("..//assets/program/program-1.svg");
+}
+.bg-img-2
+{
+  background-image: url("..//assets/program/program-2.svg");
+}
+.bg-img-3
+{
+  background-image: url("..//assets/program/program-3.svg");
+}.bg-img-4
+{
+  background-image: url("..//assets/program/program-4.svg");
+}.bg-img-5
+{
+  background-image: url("..//assets/program/program-5.svg");
+}.bg-img-6
+{
+  background-image: url("..//assets/program/program-6.svg");
+}.bg-img-7
+{
+  background-image: url("..//assets/program/program-7.svg");
+}.bg-img-8
+{
+  background-image: url("..//assets/program/program-8.svg");
+}.bg-img-9
+{
+  background-image: url("..//assets/program/program-9.svg");
+}
+.card-sec>div>h3,.card-sec>div>p{
+  color: white;
+}
+.program-card>.container>.row
+{
+  padding-top: 20px;
+  row-gap: 20px;
+}
+/* ===============slider-============ */
+.program-slider
+{
+  display: none;
+}
+.swiper-wrapper{
+  margin-bottom: 30px;
+}
+.swiper {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 10px;
+}
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  max-width: 360px;
+}
+/* ================responsive=========== */
+@media screen and (max-width:1024px){
+  .program>.container>h1
+  {
+    font-size:80px;
+  }
+    .program-card>.container>.row{
+    display: none;
+  }
+  .program-slider{
+    display: block;
+  }
+
+}
+/* ===========992px===== */
+@media screen and (max-width:992px){
+  .program-card{
+    padding: 50px 0px;
+  }
+  
+}
+@media screen and (max-width:768px){
+  .program>.container>h1
+  {
+    font-size:40px;
+  }
+  .program
+  {
+    padding: 80px 0px;
+  }
+
+
+}
+

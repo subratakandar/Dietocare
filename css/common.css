@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Coustard:wght@400;900&family=David+Libre:wght@400;500;700&family=Gideon+Roman&family=Inclusive+Sans:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kreon:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Metrophobic&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+ul {
+  list-style-type: none;
+}
+.container {
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+.common-header {
+  font-size: 50px;
+  color: #171615;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.span {
+  font-size: 50px;
+  color: #d09172;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.header-top-text {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 5px;
+  color: #ffffff;
+}
+.banner-header {
+  font-size: 100px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.banner-header-span {
+  color: #d09172;
+}
+.common-para {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #52504e;
+}
+.common-btn {
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #171615;
+  background: linear-gradient(to right, #f4e07a, #c1963c);
+}
+
+.underline {
+  width: 71px;
+  background-color: #ded2c6;
+  height: 5px;
+  position: relative;
+  margin: 0px auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.underline::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 7px;
+  background-color: #7e3c24;
+  display: flex;
+  justify-items: center;
+  border-radius: 10px;
+}
+.common-sub-header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #171615;
+}
+.row {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-wrap: wrap;
+}
+.line {
+  width: 59px;
+  background-color: #ded2c6;
+  height: 5px;
+  position: relative;
+  left: 0px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.line::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 7px;
+  background-color: #7e3c24;
+  display: flex;
+  border-radius: 10px;
+}
+.col-50 {
+  width: 50%;
+  padding: 0px 15px;
+}
+.col-33 {
+  width: 33.33%;
+  padding: 0px 15px;
+}
+.col-25 {
+  width: 25%;
+  padding: 0px 15px;
+}
+.col-20 {
+  width: 20%;
+  padding: 0px 15px;
+}
+.link {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  text-align: center;
+}
+.price {
+  font-size: 26px;
+  font-family: 700;
+  color: #171615;
+  font-family: "Roboto", sans-serif;
+}
+.drop-price {
+  font-size: 16px;
+  font-weight: 400;
+  color: #52504e;
+}
+/* =====ui verse-======== */
+.ui {
+  width: 165px;
+  height: 62px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 1rem;
+  border: none;
+  position: relative;
+  background: #5913d2;
+  transition: 0.1s;
+}
+
+.ui::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+  filter: blur(15px);
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.ui:active {
+  transform: scale(0.9) rotate(3deg);
+  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+  transition: 0.5s;
+}
+/* ============================================= */
+/* From Uiverse.io by cssbuttons-io */ 
+.bt {
+ --glow-color: rgb(217, 176, 255);
+ --glow-spread-color: rgba(191, 123, 255, 0.781);
+ --enhanced-glow-color: rgb(231, 206, 255);
+ --btn-color: rgb(100, 61, 136);
+ border: .25em solid var(--glow-color);
+ padding: 1em 3em;
+ color: var(--glow-color);
+ font-size: 15px;
+ font-weight: bold;
+ background-color: var(--btn-color);
+ border-radius: 1em;
+ outline: none;
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+ text-shadow: 0 0 .5em var(--glow-color);
+ position: relative;
+ transition: all 0.3s;
+}
+
+.bt::after {
+ pointer-events: none;
+ content: "";
+ position: absolute;
+ top: 120%;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ background-color: var(--glow-spread-color);
+ filter: blur(2em);
+ opacity: .7;
+ transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+.bt:hover {
+ color: var(--btn-color);
+ background-color: var(--glow-color);
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+
+.bt:active {
+ box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
+}
+/* ==================================================== */
+/* From Uiverse.io by Navarog21 */ 
+.btnn {
+  width: 10em;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge #149CEA;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btnn::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #212121;
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+.btnn::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #212121;
+  transition: 0.5s;
+}
+
+.btnn:hover::before, button:hover::after {
+  transform: scale(0)
+}
+
+.btnn:hover {
+  box-shadow: inset 0px 0px 25px #1479EA;
+}
+/* ============================================== */
+.col-20>ul>li {
+  color: white;
+ 
+}
+
+.col-20>ul>li::before {
+  margin-left: auto;
+}
+
+.col-20>ul>li::after, button::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f4efee;
+  display: block;
+  transition: 0.5s;
+}
+
+.col-20>ul>li:hover::after, button:hover::before {
+  width: 50%;
+}
+/* =================================== */
+.sp-link {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  border: 2px solid #ede7e7;
+  text-transform: uppercase;
+  color: #fbf8f8;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.sp-link::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% - 12px);
+  background-color: #fffefe;
+  transition: 0.3s ease-in-out;
+  transform: scaleY(1);
+}
+
+.sp-link:hover::before {
+  transform: scaleY(0);
+}
+
+.sp-link::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: -2px;
+  height: calc(100% + 4px);
+  width: calc(100% - 12px);
+  transition: 0.3s ease-in-out;
+  transform: scaleX(1);
+  transition-delay: 0.5s;
+}
+
+.sp-link:hover::after {
+  transform: scaleX(0);
+}
+
+.sp-link span {
+  position: relative;
+  z-index: 3;
+}

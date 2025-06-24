@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dietocare</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/header.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+                <nav>
+                     <div class="nav-logo">
+                    <a href="">
+                        <img src="./assets/index-image/nav-logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="hamberger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+                    <div class="nav-list">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="program.html">programs</a></li>
+                            <li><a href="shop.html">shop</a></li>
+                            <li><a href="testimonial.html">testimonials</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                        </ul>
+                        <div class="nav-btn">
+                            <a href="contact-us.html" class="common-btn">Contact 
+                            <img src="./assets/index-image/right-arrow.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+              
+            </div>
+    </header>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.hamberger').click(function(){
+                $('.nav-list').slideToggle(1000);
+            });
+        });
+    </script>
+</body>
+</html>
