@@ -7,7 +7,7 @@ body {
 html {
   scroll-behavior: smooth;
 }
-body.menu-open {
+body.fix-menu {
   overflow: hidden;
   position: fixed;
   width: 100%;
@@ -172,7 +172,7 @@ ul {
   border-radius: 1rem;
   border: none;
   position: relative;
-  background: #5913d2;
+   background: linear-gradient(to right, #f4e07a, #c1963c);
   transition: 0.1s;
   display: flex;
   justify-content: center;

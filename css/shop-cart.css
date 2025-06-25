@@ -46,6 +46,11 @@
   text-transform: uppercase;
 
 }
+.add-to-cart:hover{
+  background-color: #f0eeed;
+  color: rgb(208, 169, 169);
+
+}
 .col-right-text{
   display: flex;
   gap: 25px;
