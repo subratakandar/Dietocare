@@ -8,7 +8,7 @@ function increase() {
   document.getElementById("count").innerText = count;
 }
 
-function decrease() {
-  count--;
-  document.getElementById("count").innerText = count;
-}
+// function decrease() {
+//   count--;
+//   document.getElementById("count").innerText = count;
+// }
