@@ -287,16 +287,16 @@ ul {
   box-shadow: inset 0px 0px 25px #1479EA;
 }
 /* ============================================== */
-.col-20>ul>li {
+footer>.container>.row>.col-20>ul>li {
   color: white;
  
 }
 
-.col-20>ul>li::before {
+footer>.container>.row>.col-20>ul>li ::before {
   margin-left: auto;
 }
 
-.col-20>ul>li::after, button::before {
+footer>.container>.row>.col-20>ul>li ::after, button::before {
   content: '';
   width: 0%;
   height: 2px;
@@ -305,7 +305,7 @@ ul {
   transition: 0.5s;
 }
 
-.col-20>ul>li:hover::after, button:hover::before {
+footer>.container>.row>.col-20>ul>li :hover::after, button:hover::before {
   width: 50%;
 }
 /* =================================== */
