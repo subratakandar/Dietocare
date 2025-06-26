@@ -79,7 +79,8 @@ ul {
 }
 .common-btn:hover{
   background: linear-gradient(to right, #c1963c, #f4e07a);
-  transform: translate(5px,20px);
+  transform: scale(.8);
+  transition: transform 0.3s ease;
 }
 .underline {
   width: 71px;
