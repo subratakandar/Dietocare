@@ -386,5 +386,8 @@ footer>.container>.row>.col-20>ul>li :hover::after, button:hover::before {
   .common-btn{
     font-size: 10px;
   }
+  .common-header,.span{
+  font-size: 30px;
+  }
   
 }

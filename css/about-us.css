@@ -13,7 +13,7 @@
 .dietocare {
   padding: 100px 0px;
 }
-.dietocare-left > div {
+.dietocare-left {
   position: relative;
 }
 .dietocare-left > div > img {
@@ -22,21 +22,23 @@
   /* max-width: 488px; */
   max-width: 33.89vw;
 }
-.psudo {
+.pseudo {
   position: absolute;
   /* top: 340px;
   left: 350px; */
-  left: 23.61vw;
-  top: 24.31vw;
+  /* left: 23.61vw;
+  top: 24.31vw; */
+  right: -25px;
+  bottom: -25px;
 
   object-fit: contain;
 }
-.psudo > img {
+.pseudo > img {
   object-fit: contain;
   border: 11px solid white;
   border-radius: 30px;
-  /* max-width: 220px; */
-  max-width: 15.28vw;
+  max-width: 220px;
+  /* max-width: 15.28vw; */
 }
 .dietocare-right > p {
   margin: 35px 0px;
@@ -100,10 +102,6 @@
   }
   .dietocare-left > div > img {
     max-width: 100vh;
-  }
-  .psudo img {
-    right: 10vh;
-    bottom: 5vh;
   }
   .dietocare {
   padding: 30px 0px;

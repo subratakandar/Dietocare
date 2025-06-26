@@ -122,10 +122,10 @@
         <!-- ========================slider section===== -->
         <div class="video-slider">
           <div class="container">
-            <div class="swiper mySwiper">
+            <div class="swiper mySwiper-1">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <div>
+                  <div class="testimonial-image">
                     <a
                       href="https://www.youtube.com/watch?v=vgCw23HI6ro&list=PLGoWuvyH709vpTCVrjaJtaaFfite9U6u8&index=38"
                       data-fancybox
@@ -135,7 +135,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <div>
+                  <div class="testimonial-image">
                     <a
                       href="https://www.youtube.com/watch?v=vgCw23HI6ro&list=PLGoWuvyH709vpTCVrjaJtaaFfite9U6u8&index=38"
                       data-fancybox
@@ -145,7 +145,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <div>
+                  <div class="testimonial-image">
                     <a
                       href="https://www.youtube.com/watch?v=vgCw23HI6ro&list=PLGoWuvyH709vpTCVrjaJtaaFfite9U6u8&index=38"
                       data-fancybox
@@ -155,7 +155,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <div>
+                  <div class="testimonial-image">
                     <a
                       href="https://www.youtube.com/watch?v=vgCw23HI6ro&list=PLGoWuvyH709vpTCVrjaJtaaFfite9U6u8&index=38"
                       data-fancybox
@@ -165,7 +165,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <div>
+                  <div class="testimonial-image">
                     <a
                       href="https://www.youtube.com/watch?v=vgCw23HI6ro&list=PLGoWuvyH709vpTCVrjaJtaaFfite9U6u8&index=38"
                       data-fancybox
@@ -175,7 +175,7 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <div>
+                  <div class="testimonial-image">
                     <a
                       href="https://www.youtube.com/watch?v=vgCw23HI6ro&list=PLGoWuvyH709vpTCVrjaJtaaFfite9U6u8&index=38"
                       data-fancybox
@@ -486,7 +486,7 @@
       AOS.init();
     </script>
     <script>
-      const swiper = new Swiper(".mySwiper", {
+      var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
         spaceBetween: 20,
         loop: true,
@@ -498,11 +498,14 @@
         slidesPerView: 1,
 
         breakpoints: {
-          576: {
-            slidesPerView: 1.5,
-            spaceBetween: 30,
+          0: {
+            slidesPerView: 1,
+            spaceBetween: 5,
           },
-        },
+          576: {
+            slidesPerView: 1.8,
+            spaceBetween: 20,
+          },
         768: {
           slidesPerView: 2,
           spaceBetween: 25,
@@ -515,6 +518,43 @@
           slidesPerView: 4,
           spaceBetween: 30,
         },
+      },
+      });
+
+
+       var swiper = new Swiper(".mySwiper-1", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        spaceBetween: 20,
+        slidesPerView: 1,
+
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+            spaceBetween: 5,
+          },
+          576: {
+            slidesPerView: 1.8,
+            spaceBetween: 20,
+          },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 25,
+        },
+        992: {
+          slidesPerView: 3,
+          spaceBetween: 25,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
+      },
       });
     </script>
   </body>

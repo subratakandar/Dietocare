@@ -20,20 +20,17 @@
     padding: 13px;
     background-color: white;
     border-radius: 10px;
-    max-width: 360px;
-    width: 100%;
     overflow: hidden;
 }
-.card-img{
-  width: 100%;
-  overflow: hidden;
+.card-img>a{
   display: block;
+  max-width: 439px;
+  height: fit-content;
 }
 .card-img>a>img {
   width: 100%;
-  object-fit: fill;
-  display: block;
-  max-width:334px;
+  object-fit: contain;
+  height: 100%;
 }
 .card-info>img
 {
@@ -55,7 +52,6 @@
     row-gap: 20px;
     justify-content: space-between;
 }
-
 /* =============pagination menu==== */
 .pagination {
   display: inline-block;

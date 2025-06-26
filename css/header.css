@@ -270,8 +270,8 @@ gap: 16px;
         left: 0px;
         right: 0px;
         top: 90px;
-        /* top:13vh; */
-        background-color: rgb(231, 229, 226);
+        height: 100vh;
+        background-color: rgb(169, 163, 155);
         padding: 20px 0px;
         border-radius: 5px;
         flex-direction: column;
