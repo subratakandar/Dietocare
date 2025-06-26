@@ -75,6 +75,11 @@ ul {
   font-family: "Roboto", sans-serif;
   color: #171615;
   background: linear-gradient(to right, #f4e07a, #c1963c);
+  transition: transform 0.3s ease;
+}
+.common-btn:hover{
+  background: linear-gradient(to right, #c1963c, #f4e07a);
+  transform: translate(5px,20px);
 }
 .underline {
   width: 71px;
@@ -131,18 +136,25 @@ ul {
 .col-50 {
   width: 50%;
   padding: 0px 15px;
+  margin: 0px auto;
+
 }
 .col-33 {
   width: 33.33%;
   padding: 0px 15px;
+  margin: 0px auto;
 }
 .col-25 {
   width: 25%;
   padding: 0px 15px;
+  margin: 0px auto;
+
 }
 .col-20 {
   width: 20%;
   padding: 0px 15px;
+  margin: 0px auto;
+
 }
 .link {
   display: flex;
@@ -365,4 +377,13 @@ footer>.container>.row>.col-20>ul>li :hover::after, button:hover::before {
 .sp-link span {
   position: relative;
   z-index: 3;
+}
+
+/* ================================================responsive========================= */
+
+@media screen and (max-width:768px){
+  .common-btn{
+    font-size: 10px;
+  }
+  
 }

@@ -16,23 +16,25 @@
 .product>.container>.text{
   margin-bottom: 20px;
 }
-.card-sec {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.card-body>div > a>img {
-  width: 100%;
-  object-fit: contain;
-  max-width: 334px;
-}
 .card-body{
     padding: 13px;
     background-color: white;
     border-radius: 10px;
     max-width: 360px;
+    width: 100%;
+    overflow: hidden;
 }
-
+.card-img{
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
+.card-img>a>img {
+  width: 100%;
+  object-fit: fill;
+  display: block;
+  max-width:334px;
+}
 .card-info>img
 {
     padding: 12px 0px;
@@ -43,11 +45,17 @@
 .card-info>p{
     padding: 22px 0px 29px;
 }
+.card-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .product>.container>.row
 {
     row-gap: 20px;
-    justify-content: center;
+    justify-content: space-between;
 }
+
 /* =============pagination menu==== */
 .pagination {
   display: inline-block;
