@@ -17,7 +17,7 @@
                         <img src="./assets/index-image/nav-logo.svg" alt="">
                     </a>
                 </div>
-                <div class="hamberger">
+                <div class="hamburger">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -44,13 +44,21 @@
     </header>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
-    $(document).ready(function(){
-    $('.hamberger').click(function(){
-        $('.nav-list').toggle('active');
-        $('body').toggleClass('fix-menu');
-        $(this).toggleClass('active');
+//     $(document).ready(function(){
+//     $('.hamberger').click(function(){
+//         $('.nav-list').toggle('active');
+//         $('body').toggleClass('fix-menu');
+//         $(this).toggleClass('active');
+//     });
+// });
+ const hamburger = document.querySelector('.hamburger');
+    const navlist = document.querySelector('.nav-list');
+    const body=document.querySelector('body');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navlist.classList.toggle('active');
+      body.classList.toggle('fix-menu');
     });
-});
     </script>
 </body>
 </html>
