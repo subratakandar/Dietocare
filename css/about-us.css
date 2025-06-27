@@ -6,7 +6,7 @@
   width: 100%;
 }
 .about-banner > h1 {
-  padding:165px 0px;
+  padding: 165px 0px;
   text-transform: uppercase;
 }
 /* ============about dietocare============== */
@@ -19,18 +19,12 @@
 .dietocare-left > div > img {
   width: 100%;
   object-fit: contain;
-  /* max-width: 488px; */
-  max-width: 33.89vw;
+  max-width: 488px;
 }
 .pseudo {
   position: absolute;
-  /* top: 340px;
-  left: 350px; */
-  /* left: 23.61vw;
-  top: 24.31vw; */
-  right: -25px;
-  bottom: -25px;
-
+  right: 50px;
+  bottom: -60px;
   object-fit: contain;
 }
 .pseudo > img {
@@ -38,7 +32,6 @@
   border: 11px solid white;
   border-radius: 30px;
   max-width: 220px;
-  /* max-width: 15.28vw; */
 }
 .dietocare-right > p {
   margin: 35px 0px;
@@ -51,7 +44,7 @@
   padding: 80px 0px 110px;
   background: linear-gradient(to bottom, #fff7f3, #fff7f3);
 }
-.about-info{
+.about-info {
   padding-bottom: 20px;
 }
 .about-info > h2 {
@@ -78,10 +71,27 @@
 }
 
 /* ===========responsive ========== */
+@media screen and (max-width: 1200px) {
+  .pseudo {
+    position: absolute;
+    right: 20px;
+    bottom: -60px;
+    object-fit: contain;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .pseudo {
+    position: absolute;
+    right: 120px;
+    bottom: -60px;
+  }
+  .pseudo > img {
+    width:80px;
+  }
+}
 /* ===========992px===== */
-@media screen and (max-width:992px){
-
-  .about-sec{
+@media screen and (max-width: 992px) {
+  .about-sec {
     padding: 50px 0px;
   }
 }
@@ -104,18 +114,53 @@
     max-width: 100vh;
   }
   .dietocare {
-  padding: 30px 0px;
-}
-.dietocare-right>p{
-  max-width: 100%;
-  margin:10px 0px;
-}
+    padding: 30px 0px;
+  }
+  .dietocare-right > p {
+    max-width: 100%;
+    margin: 10px 0px;
+  }
+  .pseudo {
+    position: absolute;
+    right: 70px;
+    bottom: -60px;
+  }
+  .dietocare-left > div > img {
+    width: 100%;
+    max-width: 488px;
+  }
 }
 /* =============576px====== */
-@media screen and (max-width:576px){
-.about-sec>.container>.row>.col-33{
-width: 100%;
-margin: 10px;
+@media screen and (max-width: 576px) {
+  .about-sec > .container > .row > .col-33 {
+    width: 100%;
+    margin: 10px;
+  }
+  .pseudo {
+    position: absolute;
+    right:-10px;
+    bottom: -50px;
+  }
+  .dietocare-left > div > img {
+    width: 100%;
+    max-width: 488px;
+  }
+
+}
+/* ==============320px====== */
+@media screen and (max-width:320px) {
+
+  .pseudo {
+    position: absolute;
+    right:-10px;
+    bottom: -40px;
+  }
+  .pseudo > img {
+  object-fit: contain;
+  border: 11px solid white;
+  border-radius: 30px;
+  width: 150px;
+  height: 150px;
 }
 
 }

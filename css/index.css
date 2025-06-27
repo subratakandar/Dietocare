@@ -87,9 +87,9 @@
   /* max-width: 360px; */
   margin: 10px;
 }
-.index-card > .container > .row {
+/* .index-card > .container > .row {
   justify-content: space-between;
-}
+} */
 /* ===============about us section====== */
 .about {
   background-image: url("../assets/index-image/about-us-bg.svg");
@@ -127,10 +127,10 @@
 }
 .why-us > .container > .row {
   padding-top: 47px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: center; */
 }
 .why-us > .container > .row > .col-6 {
   width: 16.66%;
@@ -278,15 +278,16 @@
   .banner-header {
     font-size: 50px;
   }
+  .index-card > .container > p.common-para {
+  padding: 10px 0px;
+  font-size: 13px;
+}
   /* =========index card==== */
   .index-card {
     padding: 40px 0px;
   }
   .index-card > .container > p.common-para {
     padding: 40px 0px 20px;
-  }
-  .card-sec > .common-sub-header {
-    font-size: 15px;
   }
   /* =======about us===== */
 
