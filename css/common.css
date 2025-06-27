@@ -178,6 +178,29 @@ ul {
    transform: scale(1.5);
   transition: transform 0.3s ease;
 }
+.blog-hover{
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.blog-hover:hover{
+   transform: scale(1.1);
+   color: #cc6a39;
+}
+.shop-cart-btn{
+    display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #eee;
+  padding: 15px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  background-color: #fff;
+}
+.shop-cart-btn:hover {
+  transform: scale(1.025) translateY(-3px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  background-color: #dfcbcb;
+  border-color: transparent;
+}
 /* =====ui verse-======== */
 .ui {
   width: 165px;
@@ -407,5 +430,12 @@ footer>.container>.row>.col-20>ul>li :hover::after, button:hover::before {
   .common-header,.span{
   font-size: 30px;
   }
+  .price {
+  font-size: 20px;
+}
+.drop-price {
+  font-size: 13px;
+
+}
   
 }

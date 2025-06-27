@@ -52,7 +52,7 @@
     row-gap: 20px;
     justify-content: space-between;
 }
-#shop-item-2{
+#shop-product{
   display: none;
 }
 /* =============pagination menu==== */
@@ -97,7 +97,7 @@
   #shop-item{
     display: none;
   }
-  #shop-item-2{
+  #shop-product{
     display: block;
   }
   .col-2{
@@ -106,6 +106,21 @@
   .card-body{
     border-radius: 0px !important;
     margin: 0px;
-    padding: 0px;
+    padding: 10px 0px;
   }
+  #shop-product{
+    display: flex;
+    flex-direction: column;
+ 
+  }
+      .card-info>p{
+      padding: 10px 0px;
+    }
+
+}
+@media screen and (max-width:576px){
+    .card-info>p{
+      padding: 10px 0px;
+      max-width:238px;
+    }
 }
