@@ -52,6 +52,9 @@
     row-gap: 20px;
     justify-content: space-between;
 }
+#shop-item-2{
+  display: none;
+}
 /* =============pagination menu==== */
 .pagination {
   display: inline-block;
@@ -91,5 +94,18 @@
     justify-content: center;
     align-items: center;
   }
-
+  #shop-item{
+    display: none;
+  }
+  #shop-item-2{
+    display: block;
+  }
+  .col-2{
+    width: 50%;
+  }
+  .card-body{
+    border-radius: 0px !important;
+    margin: 0px;
+    padding: 0px;
+  }
 }
