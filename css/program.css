@@ -73,6 +73,12 @@ text-align: center;
   padding-top: 20px;
   row-gap: 20px;
 }
+.program-card>.container>.row>.col-33{
+    transition: transform 0.3s ease;
+}
+.program-card>.container>.row>.col-33:hover{
+    transform: scale(1.1);
+}
 /* ===============slider-============ */
 .program-slider
 {

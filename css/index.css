@@ -68,7 +68,10 @@
 .card-sec > div > img {
   object-fit: contain;
   width: 100%;
-  /* max-width: 360px; */
+    transition: transform 0.3s ease;
+}
+.card-sec > div > img:hover {
+  transform: translatex(-5px);
 }
 .card-sec > p {
   max-width: 333px;
@@ -103,8 +106,11 @@
 }
 .about-sec-img > img {
   width: 100%;
-  /* max-width: 560px; */
   object-fit: contain;
+  transition: transform 0.3s ease;
+}
+.about-sec-img > img:hover {
+  transform: translatex(-5px);
 }
 .about-text > p {
   max-width: 519px;
@@ -137,15 +143,22 @@
 }
 .col-6 > div > p {
   max-width: 188px;
-  margin: 0px auto;
   text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .col-6 > div > img {
   width: 100%;
   object-fit: contain;
   max-width: 191px;
+  transition: transform 0.3s ease;
 }
-/* ===created section=== */
+.col-6 > div > img:hover {
+   transform: scale(1.1);
+
+}
+/* ===created for whom section=== */
 .created {
   background-image: url("..//assets/index-image/created-bg.svg");
   padding: 85px 0px 100px;
@@ -166,9 +179,13 @@
 
 .created-card > div > img {
   width: 100%;
-  /* max-width: 263px; */
   object-fit: contain;
   border-radius: 20px;
+   transition: transform 0.3s ease;
+}
+.created-card > div > img:hover {
+ transition: transform 0.8s ease;
+  transform: scale(1.1);
 }
 .created-bottom > p {
   max-width: 230px;
@@ -214,7 +231,7 @@
   font-size: 20px;
 }
 
-/* ===============stories====== */
+/* =============== our stories====== */
 .story > .container > h2 {
   text-align: center;
 }
@@ -238,7 +255,10 @@
 .swiper-slide > a > img {
   width: 100%;
   object-fit: contain;
-  /* max-width: 360px; */
+    transition: transform 0.3s ease;
+}
+.swiper-slide > a > img:hover {
+  transition: transform 0.4s ease;
 }
 
 /* ============Let's Face It===== */

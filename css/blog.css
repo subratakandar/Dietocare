@@ -12,7 +12,7 @@
 .blog > div > h1 {
   padding: 175px 0px;
 }
-.news>.container>div>h2{
+.news > .container > div > h2 {
   text-align: center;
 }
 .blog-card {
@@ -31,11 +31,10 @@
   /* justify-content: center; */
   gap: 10px;
 }
-.blog-sec>img
-{
-    max-width: 19px;
-    width: 100%;
-    object-fit: contain;
+.blog-sec > img {
+  max-width: 19px;
+  width: 100%;
+  object-fit: contain;
 }
 .blog-card-info > h3 {
   padding: 21px 0px;
@@ -49,12 +48,15 @@
   align-items: center;
   gap: 5px;
 }
-.blog-card-img>img {
+.blog-card-img > img {
   object-fit: contain;
   width: 100%;
-  /* max-width: 333px; */
+  transition: transform 0.3s ease;
 }
-.blog-sec>img{
+.blog-card-img > img:hover {
+    transform: scale(1.1);
+}
+.blog-sec > img {
   width: 100%;
   object-fit: contain;
   max-width: 19px;
@@ -76,52 +78,49 @@
 .news .row {
   row-gap: 20px;
 }
-.blog-card-info img
-{
-    max-width: 21px;
-    object-fit: contain;
-    width: 100%;
+.blog-card-info img {
+  max-width: 21px;
+  object-fit: contain;
+  width: 100%;
 }
 /* =============================================== */
- .swiper {
-      width: 100%;
-      height: 100%;
-    }
+.swiper {
+  width: 100%;
+  height: 100%;
+}
 
-    .swiper-slide {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    .slider{
-      display: none;
-    }
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slider {
+  display: none;
+}
 /* =====responsive========= */
 /* ======================= */
 
-@media screen and (max-width:992px){
-  .news>.container>.row{
+@media screen and (max-width: 992px) {
+  .news > .container > .row {
     display: none;
   }
-  .blog-link{
+  .blog-link {
     display: none;
   }
-  .slider{
+  .slider {
     display: block;
   }
-  
 }
 /* ============768==== */
-@media screen and (max-width:768px){
-  .news{
+@media screen and (max-width: 768px) {
+  .news {
     padding: 50px 0px;
   }
-  
 }

@@ -20,6 +20,11 @@
   width: 100%;
   object-fit: contain;
   max-width: 488px;
+  transition: transform 0.3s ease;
+}
+.dietocare-left > div > img:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
 }
 .pseudo {
   position: absolute;
@@ -32,6 +37,10 @@
   border: 11px solid white;
   border-radius: 30px;
   max-width: 220px;
+  transition: transform 0.3s ease;
+}
+.pseudo > img:hover {
+transform: scale(1.1);
 }
 .dietocare-right > p {
   margin: 35px 0px;
@@ -62,6 +71,11 @@
   width: 100%;
   object-fit: contain;
   max-width: 360px;
+  transition: transform 0.9s ease;
+}
+.about-card > img:hover {
+ transform: translateY(-5px);
+  transition: transform 0.3s ease;
 }
 .about-card {
   display: flex;

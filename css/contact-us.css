@@ -1,152 +1,140 @@
-
-.contact
-{
-    background-image: url('../assets/contact-us/banner.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-
-
+.contact {
+  background-image: url("../assets/contact-us/banner.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
 }
-.contact-banner>h1
-{
-padding: 10rem 0rem;
+.contact-banner > h1 {
+  padding: 10rem 0rem;
 }
 /* =================contact card========= */
-.contact-card{
-    width: 100%;
-    max-width: 479px;
-    height: 238px;
-    padding: 28px;
-    border-radius: 17px;
-    background-color: white;
+.contact-card {
+  width: 100%;
+  max-width: 479px;
+  height: 238px;
+  padding: 28px;
+  border-radius: 17px;
+  background-color: white;
 }
-.contact-card>img
-{
-    border: 1px solid #D09172;
-    padding: 10px;
-    border-radius: 50%;
-    width: 100%;
-    max-width: 70px;
-    object-fit: contain;
+.contact-card > img {
+  border: 1px solid #d09172;
+  padding: 10px;
+  border-radius: 50%;
+  width: 100%;
+  max-width: 70px;
+  object-fit: contain;
 }
-.contact-card>.common-sub-header
-{
-    padding: 15px 0px;
+.contact-card > .common-sub-header {
+  padding: 15px 0px;
 }
-.contact-card>.common-para
-{
-    max-width: 280px;
-    color: #52504E;
-    padding-top: 10px;
+.contact-card > .common-para {
+  max-width: 280px;
+  color: #52504e;
+  padding-top: 10px;
 }
-.contact-by
-{
-    padding: 100px 0px;
-    background-color: #FFF7F3;
+.contact-by {
+  padding: 100px 0px;
+  background-color: #fff7f3;
 }
-.contact-card:hover
-{
-    outline: 1px solid rgb(224, 201, 201);
-    box-shadow: 2px 2px 2px 2px rgb(221, 212, 212);
+.contact-card:hover {
+  outline: 1px solid rgb(224, 201, 201);
+  box-shadow: 2px 2px 2px 2px rgb(221, 212, 212);
 }
-.contact-by>.container>.row
-{
-    justify-content: space-between;
+.contact-by > .container > .row {
+  justify-content: space-between;
 }
 /* ==================get in touch==== */
-.get-touch
-{
-    background-color:white;
+.get-touch {
+  background-color: white;
 }
-.get-touch>.container>.row
-{
-    padding: 100px 0px;
+.get-touch > .container > .row {
+  padding: 100px 0px;
 }
-.get-touch>.container>.row>.col-50>div>img{
-    width: 100%;
-    object-fit: contain;
-    max-width: 554px;
+.get-touch > .container > .row > .col-50 > div > img {
+  width: 100%;
+  object-fit: contain;
+  max-width: 554px;
+  transition: transform 0.3s ease;
 }
-.right-child
-{
-    padding: 59px 30px 29px;
-    background-color:#FFF7F3;
-    max-width: 554px;
-    border-radius: 20px;
-    max-height: 648px;
+.get-touch > .container > .row > .col-50 > div > img:hover {
+transform: scale(1.05);
 }
-input
-{
-    width: 100%;
-    outline: none;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px 0px;
-    border: none;
-    
+.right-child {
+  padding: 59px 30px 29px;
+  background-color: #fff7f3;
+  max-width: 554px;
+  border-radius: 20px;
+  max-height: 648px;
 }
-.submit
-{
-    background-color: #D09172;
-    border-radius: 50px;
-    color: white;
-    text-transform: uppercase;
+input {
+  width: 100%;
+  outline: none;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0px;
+  border: none;
 }
-.massage
-{
-height: 120px;
+.submit {
+  background-color: #d09172;
+  border-radius: 50px;
+  color: white;
+  text-transform: uppercase;
+   padding: 12px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 15px rgba(79, 70, 229, 0.2);
 }
-input::placeholder
-{
-    padding: 24px;
+.submit:hover {
+  background-color: #b87a5f; /* slightly darker */
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 12px 20px rgba(16, 6, 210, 0.35);
 }
-form
-{
-    margin-top: 43px;
+.massage {
+  height: 120px;
+}
+input::placeholder {
+  padding: 24px;
+  text-transform: capitalize;
+}
+form {
+  margin-top: 43px;
 }
 /* ======================responsive page============= */
 /* ================1024px=========== */
-@media screen and (max-width:1024px){
-    .get-touch>.container>.row
-{
+@media screen and (max-width: 1024px) {
+  .get-touch > .container > .row {
     padding: 50px 0px;
-}
-input
-{
-    padding:15px 0px;
+  }
+  input {
+    padding: 15px 0px;
     margin: 10px 0px;
-    
-}
-.massage
-{
-height: 60px;
-}
+  }
+  .massage {
+    height: 60px;
+  }
 
-form
-{
-    margin-top:30px;
-}
-    
+  form {
+    margin-top: 30px;
+  }
 }
 /* ========================responsive(768px)================ */
-@media screen and (max-width:768px){
-    .contact-by>.container>.row>.col-33
-    {
-        width:66.66%
-    }
-    .contact-by>.container>.row
-    {
-        gap: 20px;
-    }
-    .get-touch>.container>.row>.col-50
-    {
-        width: 100%;
-        margin: 10px 0px;
-    }
-    .contact-banner>h1
-    {
-        font-size: 70px;
-    }
+@media screen and (max-width: 768px) {
+  .contact-by > .container > .row > .col-33 {
+    width: 66.66%;
+  }
+  .contact-by > .container > .row {
+    gap: 20px;
+  }
+  .get-touch > .container > .row > .col-50 {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .contact-banner > h1 {
+    font-size: 70px;
+  }
 }
