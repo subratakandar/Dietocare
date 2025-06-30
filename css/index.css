@@ -68,7 +68,7 @@
 .card-sec > div > img {
   object-fit: contain;
   width: 100%;
-    transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 .card-sec > div > img:hover {
   transform: translatex(-5px);
@@ -133,10 +133,6 @@
 }
 .why-us > .container > .row {
   padding-top: 47px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center; */
 }
 .why-us > .container > .row > .col-6 {
   width: 16.66%;
@@ -155,8 +151,7 @@
   transition: transform 0.3s ease;
 }
 .col-6 > div > img:hover {
-   transform: scale(1.1);
-
+  transform: scale(1.1);
 }
 /* ===created for whom section=== */
 .created {
@@ -181,10 +176,10 @@
   width: 100%;
   object-fit: contain;
   border-radius: 20px;
-   transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 .created-card > div > img:hover {
- transition: transform 0.8s ease;
+  transition: transform 0.8s ease;
   transform: scale(1.1);
 }
 .created-bottom > p {
@@ -225,9 +220,10 @@
   left: -108px;
 }
 #right-arrow1 {
-  right:20px;
+  right: 20px;
 }
-#left-arrow1::after,#right-arrow1::after {
+#left-arrow1::after,
+#right-arrow1::after {
   font-size: 20px;
 }
 
@@ -255,7 +251,7 @@
 .swiper-slide > a > img {
   width: 100%;
   object-fit: contain;
-    transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
 }
 .swiper-slide > a > img:hover {
   transition: transform 0.4s ease;
@@ -299,9 +295,9 @@
     font-size: 50px;
   }
   .index-card > .container > p.common-para {
-  padding: 10px 0px;
-  font-size: 13px;
-}
+    padding: 10px 0px;
+    font-size: 13px;
+  }
   /* =========index card==== */
   .index-card {
     padding: 40px 0px;
