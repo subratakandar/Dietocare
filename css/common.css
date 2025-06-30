@@ -174,9 +174,12 @@ ul {
   font-weight: 400;
   color: #52504e;
 }
+.click-img
+{
+   transition: all 0.9s ease;
+}
 .click-img:hover{
-   transform: scale(1.1);
-  transition: transform 0.3s ease;
+  transform: scale(1.05);
 }
 .blog-hover{
   transition: transform 0.3s ease, color 0.3s ease;
