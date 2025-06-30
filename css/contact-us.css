@@ -138,3 +138,15 @@ form {
     font-size: 70px;
   }
 }
+@media screen and (max-width: 576px) {
+  .contact-banner>h1{
+    font-size: 50px;
+  }
+
+}
+@media screen and (max-width:425px) {
+  .contact-banner>h1{
+    font-size: 30px;
+  }
+
+}

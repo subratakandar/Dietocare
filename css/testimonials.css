@@ -136,3 +136,8 @@ margin: 10px 0px;
     }
     
 }
+@media screen and (max-width:426px){
+  .testimonial>.banner>.container>h1{
+    font-size: 40px;
+  }
+}
