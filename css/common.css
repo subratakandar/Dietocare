@@ -287,10 +287,10 @@ footer>.container>.row>.col-20>ul>li :hover::after, button:hover::before {
   font-size: 30px;
   }
   .price {
-  font-size: 20px;
+  font-size:15px;
 }
 .drop-price {
-  font-size: 13px;
+  font-size: 11px;
 
 }
   

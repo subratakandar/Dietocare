@@ -59,7 +59,7 @@ margin: 10px 0px;
     gap: 10px;
     border-radius: 20px;
     background-color: white;
-    padding: 20px;
+    padding:20px;
 }
 .link{
     margin: 0px auto;
@@ -74,7 +74,7 @@ margin: 10px 0px;
 {
     width: 100%;
     object-fit: contain;
-    max-width: 335px;
+    /* max-width: 335px; */
 }
 .card
 {
