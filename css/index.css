@@ -303,7 +303,7 @@
     padding: 40px 0px;
   }
   .index-card > .container > p.common-para {
-    padding: 40px 0px 20px;
+    padding: 30px 0px 15px;
   }
   /* =======about us===== */
 
@@ -401,5 +401,30 @@
   }
   .created-header > div > h2 > span {
     font-size: 40px;
+  }
+  .index-card > .container > p.common-para {
+    padding: 10px 0px 0px;
+  }
+  .index-card {
+    padding: 10px 0px;
+  }
+  .created {
+    padding: 20px 0px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .created-header > div > h2,
+  .created-header > div > h2 > span {
+    font-size: 20px;
+  }
+  #left-arrow1::after,
+  #right-arrow1::after {
+    font-size: 10px;
+  }
+  #left-arrow1 {
+    left: -80px;
+  }
+  #right-arrow1 {
+    right: 0px;
   }
 }
