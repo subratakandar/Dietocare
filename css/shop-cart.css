@@ -44,11 +44,15 @@
   font-size: 18px;
   color: white;
   text-transform: uppercase;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
 
 }
 .add-to-cart:hover{
-  background-color: #f0eeed;
-  color: rgb(208, 169, 169);
+  background-color: #a37863;
+  color: rgb(254, 247, 247);
 
 }
 .col-right-text{
